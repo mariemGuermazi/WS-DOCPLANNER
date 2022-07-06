@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Capriola&family=Covered+By+Your+Grace&family=Love+Ya+Like+A+Sister&family=Roboto:ital,wght@0,100;1,400&display=swap');
+
+/* INTRO */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.INTRO-SECTION {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 10%;
+}
+
+.INTRO-SECTION div {
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+    line-height: 1.75;
+}
+
+.INTRO-SECTION img{
+    width: 40px;
+}
+
+.INTRO-SECTION h1{
+    color: #00b39b;
+    font-weight: 300;
+    font-size: 2.125rem;
+    text-align: center;
+    padding: 2%;
+}
+
+.INTRO-SECTION p {
+    width: 45%;
+    font-weight: 400;
+}
+
+/* COUNTRIES SECTION  */
+
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2% 10%;
+}
+
+.country{
+    margin-bottom: 2%;
+    border-radius: 2%;
+}
+
+.country img {
+    width: 300px;
+    border-radius: 2%;
+}
+
+.country div {
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    align-items: center;
+
+}
+
+.country div button{
+    width: 120px;
+    height: 25px;
+    font-size: x-small;
+}
+
+.country:hover{
+    box-shadow: 0 4px 15px 0 gray;
+
+}
